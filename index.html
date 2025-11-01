@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+<!-- ✅ MOBILE ZOOM + PINCH SUPPORT (Samsung/Chrome Friendly) -->
+<meta name="viewport"
+  content="width=device-width,
+  initial-scale=0.45,
+  minimum-scale=0.1,
+  maximum-scale=10,
+  user-scalable=yes" />
+
+<meta name="gesture-handling" content="auto" />
+<meta name="interactive-widget" content="resizes-content" />
+
+    <title>RPS64 Arena</title>
+    <meta
+      name="description"
+      content="Compete in the RPS64 Tournament. Live matches. Real players. Real prizes."
+    />
+
+    <!-- ✅ Icon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- ✅ Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet" />
+
+    <!-- ✅ PWA / Better Mobile Behavior -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#000000" />
+  </head>
+
+  <body style="touch-action: auto; overscroll-behavior: contain;">
+    <div id="root"></div>
+
+    <!-- ✅ React entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

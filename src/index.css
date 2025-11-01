@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 50% -40%, #062427 0%, #03191b 55%, #000 100%);
+  color: #eafffb;
+  font-family: "Orbitron", sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --accent: #00ffd5;
+  --accent-soft: rgba(0,255,213,0.35);
+  --royal: #00aaff;
+  --danger:#ff3b3b;
+  --gold:#ffd54d;
+  --bg0:#041619;
+  --bg1:#021012;
+  --glass: rgba(0,255,213,0.06);
+}

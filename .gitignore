@@ -1,0 +1,12 @@
+node_modules/
+server/node_modules/
+
+# Env & Secrets
+.env
+*.env
+server/.env
+*.json
+server/firebasekey.json
+
+# Build
+dist/
